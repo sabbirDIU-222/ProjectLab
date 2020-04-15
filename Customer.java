@@ -12,7 +12,46 @@ public class Customer extends User {
         this.email = email;
         this.iteam = iteam;
     }
-    
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public Iteam getIteam() {
+        return iteam;
+    }
+
+    public void setIteam(Iteam iteam) {
+        this.iteam = iteam;
+    }
+
+    public String getUserid() {
+        return userid;
+    }
+
+    public void setUserid(String userid) {
+        this.userid = userid;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     @Override
     public void display()
     {
@@ -32,3 +71,14 @@ public class Customer extends User {
         
     }
 }
+
+*************** OUTPUT ****************
+
+run:
+customer name : Sabbir
+customer email : sabbir18-10@diu.edu
+iteam name : rice
+iteam price : 73.0
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+
